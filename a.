@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Let’s Find the Factorial of Any Number</h2>
+
+<input type="number" id="num" placeholder="Enter any number">
+<button onclick="findFactorial()">Find Factorial</button>
+
+<p id="result"></p>
+
+<script>
+function findFactorial() {
+    let number = parseInt(document.getElementById("num").value);
+    let factorial = 1;
+
+    // Multiply every number from 1 up to the given number.
+    for (let i = 1; i <= number; i++) {
+        factorial = factorial * i;
+    }
+
+    document.getElementById("result").innerHTML =
+        "The factorial of " + number + " is " + factorial + ".";
+}
+</script>
+
+</body>
+</html>
