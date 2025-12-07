@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Student Marks Form</h3>
+
+<form onsubmit="showMarks(event)">
+    <input id="m" type="number" placeholder="Enter marks">
+    <button type="submit">Submit</button>
+</form>
+
+<p id="output"></p>
+
+<script>
+function showMarks(event) {
+    event.preventDefault();
+    var marks = document.getElementById("m").value;
+    document.getElementById("output").innerHTML = "Marks: " + marks;
+}
+</script>
+
+</body>
+</html>
