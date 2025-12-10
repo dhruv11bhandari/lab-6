@@ -18,6 +18,11 @@ function showMarks(event) {
     document.getElementById("output").innerHTML = "Marks: " + marks;
 }
 </script>
+<style>
+    body {
+  background-color: rgb(189, 146, 198);
+}
+</style>
 
 </body>
 </html>
