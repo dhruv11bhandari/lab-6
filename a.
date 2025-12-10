@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>Let’s Find the Factorial of Any Number</h2>
+<h2>Factorial of the Number : </h2>
 
 <input type="number" id="num" placeholder="Enter any number">
 <button onclick="findFactorial()">Find Factorial</button>
@@ -23,6 +23,15 @@ function findFactorial() {
         "The factorial of " + number + " is " + factorial + ".";
 }
 </script>
+<style>
+
+    body{
+        background-color: bisque;
+    }
+    h2{
+        color: rgb(9, 219, 149);
+    }
+</style>
 
 </body>
 </html>
